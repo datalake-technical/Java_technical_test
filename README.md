@@ -43,7 +43,7 @@ have been initialized.
 The goal of this exercise is to ingest and manipulate a small dataset contained in the Avro files located at
 src/main/resources/input. The Avro schema is provided in the src/main/resources/avro_utils folder.
 
-Please initiate in the file Part2.scala a Spark 2 Session in local mode (no interaction with an Hadoop cluster will happen during this
+Please initiate in the file Part2.java a Spark 2 Session in local mode (no interaction with an Hadoop cluster will happen during this
 exercise).
 
 1. **Compaction** : Using the Spark API, please generate one Avro file that will contain all the records of the four
